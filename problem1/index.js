@@ -7,7 +7,7 @@ http.createServer((req,res)=>
     res.write(JSON.stringify(data));
     res.end();
 }).listen(4000); 
- //  how i will approach to this problem 
+ //  how i will approach to this problem as my vs code is not responding  
  //  first i will fetch input url 
  //  then check whether my url is correct or not 
  //  if correct i will get request that url and will get output endpoints 
